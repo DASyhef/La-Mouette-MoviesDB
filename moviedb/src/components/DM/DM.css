@@ -1,0 +1,32 @@
+.round {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    left: 50px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 20;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.round:hover {
+transition: 0.3s;
+transform: scale(0.9);
+}
+
+.round.invert {
+    filter: invert(100%);
+    transition: filter 0.3s ease; /* Ajout de la transition pour l'inversion */
+  }
+
+.round>img {
+    width: 80%;
+    filter: invert(1)
+}

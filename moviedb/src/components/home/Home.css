@@ -1,0 +1,151 @@
+.test {
+    z-index: 10;
+    color: white;
+}
+
+.research {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top:0;
+    right:0;
+    left:50%;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    margin: 50px;
+    height: 30px;
+    width: 400px;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+
+.result>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.result>p {
+    width: 100%;
+    text-align: center;
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.527);
+    margin: 50px;
+    transition: 0.3s;
+    transform: scale(1);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+    cursor: pointer;
+}
+
+.datas>img {
+    width: 80%;
+    border-radius: 15px;
+}
+
+.datas:hover {
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+.popup {
+    position: fixed;
+    left: 25%;
+    top:15%;
+    width: 60%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.479);
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    border-radius: 20px;
+    color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    opacity: 0;
+	transition: opacity 0.3s, transform 0.3s;
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+}
+
+.popup-appear {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.popup-close-btn {
+    border-radius: 40%;
+    width: 25px;
+    height: 25px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.452);
+    color: rgba(0, 0, 0, 0.493);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+h2, h1, label {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+@media (max-width: 767px) {
+    .popup {
+        left: 5%;
+        font-size: x-small;
+    }
+
+    input {
+        width: 150px;
+    }
+
+    h1 {
+        font-size: larger;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+    .datas {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 1280px) {
+    input {
+        width: 300px;
+    }
+}
