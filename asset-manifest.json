@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/La-Mouette-MoviesDB/static/css/main.ef2a86c7.css",
-    "main.js": "/La-Mouette-MoviesDB/static/js/main.68c3e8b2.js",
+    "main.js": "/La-Mouette-MoviesDB/static/js/main.941c4b63.js",
     "static/media/Eric.png": "/La-Mouette-MoviesDB/static/media/Eric.01fbe5c6cf0700fa075d.png",
     "static/media/Toka.jpg": "/La-Mouette-MoviesDB/static/media/Toka.413e09c5b3cdd7bb5155.jpg",
     "static/media/Niki.jpg": "/La-Mouette-MoviesDB/static/media/Niki.ca57450b5d24d45160d7.jpg",
@@ -9,10 +9,10 @@
     "static/media/Boulogne.jpg": "/La-Mouette-MoviesDB/static/media/Boulogne.850ff05eeda2cc5f96d4.jpg",
     "index.html": "/La-Mouette-MoviesDB/index.html",
     "main.ef2a86c7.css.map": "/La-Mouette-MoviesDB/static/css/main.ef2a86c7.css.map",
-    "main.68c3e8b2.js.map": "/La-Mouette-MoviesDB/static/js/main.68c3e8b2.js.map"
+    "main.941c4b63.js.map": "/La-Mouette-MoviesDB/static/js/main.941c4b63.js.map"
   },
   "entrypoints": [
     "static/css/main.ef2a86c7.css",
-    "static/js/main.68c3e8b2.js"
+    "static/js/main.941c4b63.js"
   ]
 }
