@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/lamouettemoviesdb/static/css/main.0656bed5.css",
-    "main.js": "/lamouettemoviesdb/static/js/main.65305613.js",
-    "static/media/Eric.png": "/lamouettemoviesdb/static/media/Eric.01fbe5c6cf0700fa075d.png",
-    "static/media/Toka.jpg": "/lamouettemoviesdb/static/media/Toka.413e09c5b3cdd7bb5155.jpg",
-    "static/media/Niki.jpg": "/lamouettemoviesdb/static/media/Niki.ca57450b5d24d45160d7.jpg",
-    "static/media/by-night.jpg": "/lamouettemoviesdb/static/media/by-night.f227526e47ddf3e9c4c2.jpg",
-    "static/media/Boulogne.jpg": "/lamouettemoviesdb/static/media/Boulogne.850ff05eeda2cc5f96d4.jpg",
-    "index.html": "/lamouettemoviesdb/index.html",
-    "main.0656bed5.css.map": "/lamouettemoviesdb/static/css/main.0656bed5.css.map",
-    "main.65305613.js.map": "/lamouettemoviesdb/static/js/main.65305613.js.map"
+    "main.css": "/La-Mouette-Moviesdb/static/css/main.cb8052e5.css",
+    "main.js": "/La-Mouette-Moviesdb/static/js/main.2275c092.js",
+    "static/media/Eric.png": "/La-Mouette-Moviesdb/static/media/Eric.01fbe5c6cf0700fa075d.png",
+    "static/media/Toka.jpg": "/La-Mouette-Moviesdb/static/media/Toka.413e09c5b3cdd7bb5155.jpg",
+    "static/media/Niki.jpg": "/La-Mouette-Moviesdb/static/media/Niki.ca57450b5d24d45160d7.jpg",
+    "static/media/by-night.jpg": "/La-Mouette-Moviesdb/static/media/by-night.f227526e47ddf3e9c4c2.jpg",
+    "static/media/Boulogne.jpg": "/La-Mouette-Moviesdb/static/media/Boulogne.850ff05eeda2cc5f96d4.jpg",
+    "index.html": "/La-Mouette-Moviesdb/index.html",
+    "main.cb8052e5.css.map": "/La-Mouette-Moviesdb/static/css/main.cb8052e5.css.map",
+    "main.2275c092.js.map": "/La-Mouette-Moviesdb/static/js/main.2275c092.js.map"
   },
   "entrypoints": [
-    "static/css/main.0656bed5.css",
-    "static/js/main.65305613.js"
+    "static/css/main.cb8052e5.css",
+    "static/js/main.2275c092.js"
   ]
 }
